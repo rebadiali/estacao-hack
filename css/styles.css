@@ -1,0 +1,60 @@
+header{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#iconeMenu{
+    height: 5mm;
+    width: 5mm;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.barra{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:OCR A;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #fff;   
+}
+
+#logo{
+    height: 10mm;
+    width: 65mm;
+}
+
+.direita{
+    display: flex;
+    justify-content: stretch;
+}
+
+.interna{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+}
+
+.parallax { 
+    background-color: aqua;
+    /* The image used */
+    background-image: url("img/banner.png");
+
+    /* Set a specfic height */
+    height: 590px; 
+
+    /*Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
